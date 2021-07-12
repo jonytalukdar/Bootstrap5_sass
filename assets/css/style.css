@@ -10818,6 +10818,16 @@ textarea.form-control-lg {
   background-color: #9926f0;
 }
 
+.display-3 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.border-right {
+  border-right: 0.15rem solid #dee2e6;
+  height: 100%;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(214, 51, 132, 0.95));
 }
@@ -10875,6 +10885,11 @@ textarea.form-control-lg {
 }
 .companies__logo-box img {
   height: 100%;
+  transition: 0.2s ease-in;
+}
+.companies__logo-box img:hover {
+  transform: translateY(-0.4rem);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
