@@ -10765,6 +10765,23 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.display-2--intro {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.display-2--description {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-transform: none;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(214, 51, 132, 0.95));
 }
@@ -10775,6 +10792,13 @@ textarea.form-control-lg {
   color: #fff !important;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.showcase-section {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(214, 51, 132, 0.95));
+  width: 100%;
+  height: 100%;
+  padding: 10rem 0 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */
