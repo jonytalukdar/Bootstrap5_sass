@@ -10787,9 +10787,15 @@ textarea.form-control-lg {
 }
 .display-2--description {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 1rem;
   text-transform: none;
+}
+@media (min-width: 992px) {
+  .display-2--description {
+    font-size: 1.2rem;
+    display: inline-block;
+  }
 }
 
 .menu {
