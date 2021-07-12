@@ -1,1 +1,20 @@
 @use './custom';
+
+// imported for compnents
+
+@use './components/animation';
+@use './components/buttons';
+@use './components/typography';
+@use './components/mixins.scss';
+
+// imported for section
+
+@use './sections/navbar';
+@use './sections/showcase';
+@use './sections/companies';
+@use './sections/services';
+@use './sections/portfolio';
+@use './sections/get-started';
+@use './sections/testimonial';
+@use './sections/faq';
+@use './sections/footer';
