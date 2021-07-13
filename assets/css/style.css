@@ -10922,5 +10922,44 @@ textarea.form-control-lg {
   padding: 0;
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(214, 51, 132, 0.95));
 }
+.testimonials__card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3rem 1.25rem;
+  border-radius: 0.625rem;
+  text-align: center;
+  height: auto;
+}
+.testimonials__card i {
+  font-size: 1.5rem;
+  color: rgba(153, 38, 240, 0.7);
+}
+.testimonials__card .ratings i {
+  font-size: 1rem;
+  color: rgba(153, 38, 240, 0.7);
+}
+.testimonials__picture {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials__picture img {
+  border: 0.25rem solid rgba(153, 38, 240, 0.7);
+}
+.testimonials__name {
+  padding-top: 3rem;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+.testimonials__name h3 {
+  text-transform: capitalize;
+  margin-top: 0;
+}
+.testimonials__name p {
+  padding-top: 0;
+  text-transform: capitalize;
+}
 
 /*# sourceMappingURL=style.css.map */
